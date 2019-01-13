@@ -96,6 +96,154 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* <!-- -------------------- Header Styles ------------------ --> */
+
+
+header, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-area h1{
+  padding-left: 15px;
+}
+
+header .content-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+header .header-divider{
+  width:100%;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width:60%;
+}
+
+/* <!-- -------------------- Mobile Styles - Homepage------------------ --> */
+
+.hero-area{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width:100%;
+  margin:0;
+}
+
+aside{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+.form-description h3, p, aside{
+  padding-left: 15px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center; */
+}
+
+.features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.features article{
+
+  /* flex-flow: row wrap; */
+  width:55%;
+}
+
+.features h2{
+  width:85%;
+  padding-left: 15px;
+}
+
+.features p{
+  padding: 0;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width:85%;
+}
+
+h3 .reviews{
+  width:50%;
+  display: flex;
+  align-items: baseline;
+}
+
+.reviews h2, h3{
+  padding-left: 15px;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  width:55%
+}
+
+footer .footer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  text-align: center;
+  width:55%
+  /* margin:50px 0; */
+}
+
+footer .contact{
+
+}
+footer .social{
+
+}
+
+footer .copyright {
+
+}
+
 
 
 
