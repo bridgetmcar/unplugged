@@ -338,6 +338,31 @@ footer .social h3 {
 
 footer .copyright {}
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -530,8 +555,11 @@ footer .copyright {}
     padding: 30px;
   }
 
-  .form-description {
+  /* .form-description {
     width: 26%;
+  } */
+  .newsletter-form {
+    min-width: 30%;
   }
 
   .features {
@@ -557,10 +585,11 @@ footer .copyright {}
 
   .faq {
     padding: 50px 0 50px 0;
+        line-height: 1.5;
   }
 
   .faq-column {
-    padding-right: 40px;
+    padding-right: 60px;
   }
 
   .footer {
@@ -585,6 +614,13 @@ footer .copyright {}
   .mission h2 {
     font-weight: 500;
   }
+
+.mission-content{
+      line-height: 1.5;
+}
+  .mission-column {
+    padding-right: 60px;
+      }
 
   .contact-section h3, h4 {
     font-weight: 500;
