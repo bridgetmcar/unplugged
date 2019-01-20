@@ -1,19 +1,16 @@
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -25,28 +22,26 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
-
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -54,43 +49,39 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
 audio,
 canvas,
 iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
@@ -98,9 +89,8 @@ textarea {
    ========================================================================== */
 /* <!-- -------------------- Header Styles ------------------ --> */
 /* General Styles */
-
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
@@ -124,39 +114,29 @@ h2 {
   margin: 0;
 }
 
-h3{
+h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
 }
+
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1em;
 }
 
+p {}
 
-p {
+img {}
 
-}
-
-img {
-
-}
-
-figure {
-
-}
+figure {}
 
 address {
-
+  font-style: normal;
 }
 
-.content-wrapper {
+.content-wrapper {}
 
-}
-
-
-
-header, footer{
+header, footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,12 +144,12 @@ header, footer{
   color: #aeb0b7
 }
 
-.hero-area h2{
+.hero-area h2 {
   margin: auto;
   width: 85%;
 }
 
-header .content-wrapper{
+header .content-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -177,60 +157,60 @@ header .content-wrapper{
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-
 }
 
-header .header-divider{
-  width:100%;
+header .header-divider {
+  width: 100%;
 }
 
-header nav{
+header nav {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  width:60%;
+  width: 60%;
 }
 
-.hero-area{
+.hero-area {
   margin: 0;
   width: 100%;
 }
 
 /* <!-- -------------------- Mobile Styles - Homepage------------------ --> */
-
 nav ul {
   flex-flow: row wrap;
   display: flex;
   padding: 0;
 }
 
-li{
+li {
   padding-left: 20px;
   padding-right: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-header h1{
+header h1 {
   margin: auto;
   width: 85%;
 }
 
-.hero-area{
+.hero-area {
   /* display: flex;
   justify-content: center;
   align-items: center; */
-  width:100%;
-  margin:0;
+  width: 100%;
+  margin: 0;
 }
 
-.content-wrapper{
+.content-wrapper {
   margin: auto;
   width: 85%;
 }
 
-aside{
+aside {
   /* display: flex;
   justify-content: center;
   align-items: center;
@@ -239,22 +219,29 @@ aside{
     align-items: center; */
 }
 
-.newsletter{
+.newsletter {
   margin: auto;
   background-color: #527158;
   color: #e2e3ed;
 }
+
+.newsletter-content {
+  margin: auto;
+  width: 85%;
+  color: #e2e3ed;
+  padding: 20px 0 20px 0;
+}
+
 /* .form-description h3, aside{
   padding-left: 15px;
 
 } */
-
-.features-header{
+.features-header {
   margin: auto;
   width: 85%;
 }
 
-.features-items{
+.features-items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,76 +249,76 @@ aside{
   text-align: center;
 }
 
-.features article{
-
+.features article {
   /* flex-flow: row wrap; */
-  width:55%;
-
+  width: 55%;
 }
 
 /* .features h2{
   width:85%;
   padding-left: 15px;
 } */
-
-.features p{
+.features p {
   padding: 0;
 }
 
-.reviews{
+.reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  color:#5b6d6a;
+  color: #5b6d6a;
   background-color: #2a423a;
 }
 
-h3 .reviews{
-  width:50%;
+h3 .reviews {
+  width: 50%;
   display: flex;
   align-items: baseline;
 }
 
-.map{
+.map {
   margin: 0;
   width: 100%;
 }
 
-.mission{
+.mission {
   background-color: #527158;
   color: #bcc5c5;
+  padding: 30px 0;
 }
 
-.contact-section{
+.contact-section {
   background-color: #2a423a;
   color: #e2e3ed;
+  padding: 30px 0;
 }
 
-.faq{
+.faq {
   background-color: #527158;
   color: #e2e3ed;
+  padding: 30px 0;
 }
-/* Footer */
 
-footer{
+/* Footer */
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .content-wrapper{
+footer .content-wrapper {
   /* display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap; */
   text-align: center;
-  width:55%
+  width: 55%
 }
 
-footer .footer-content{
+footer .footer-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -341,33 +328,24 @@ footer .footer-content{
   /* margin:50px 0; */
 }
 
-footer .contact{
-
-}
-footer .social{
-
+footer .contact h3 {
+  font-weight: 500;
 }
 
-footer .copyright {
-
+footer .social h3 {
+  font-weight: 500;
 }
 
-
-
-
-
-
+footer .copyright {}
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
-
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -378,17 +356,17 @@ footer .copyright {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */
 }
 
 /*
@@ -396,24 +374,22 @@ footer .copyright {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
 }
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -427,15 +403,16 @@ footer .copyright {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -443,21 +420,25 @@ footer .copyright {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+@media only screen and (min-width: 768px) {
 
-@media only screen and (min-width: 768px){
   /* Tablets */
+  .content-wrapper {
+    /* width:83%; */
+  }
 
-.content-wrapper{
-  /* width:83%; */
-}
-
-header .content-wrapper {
-  margin: auto;
+  header .content-wrapper {
+    margin: auto;
     width: 85%;
     display: flex;
     flex-flow: nowrap;
   }
-  .features-items{
+
+  .features {
+    padding: 30px 0 30px 0;
+  }
+
+  .features-items {
     margin: auto;
     width: 67%;
     display: flex;
@@ -467,123 +448,162 @@ header .content-wrapper {
     text-align: center;
   }
 
-  .features article{
+  .features article {
     /* flex-flow: row wrap; */
-    width:35%;
+    width: 35%;
   }
 
   .mission-columns {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:15px;
-
+    padding: 15px;
   }
-.faq-columns{
-  display: flex;
-justify-content: space-around;
-align-items: baseline;
-/* flex-flow: row wrap; */
-/* padding: 15px; */
-}
+
+  .faq-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /* flex-flow: row wrap; */
+    /* padding: 15px; */
+  }
+
   .contact-columns {
     display: flex;
     justify-content: space-around;
     align-items: center;
     /* padding:15px; */
-
   }
-.mission-column{
-  width: 90%;
-}
 
-.review-table{
-  display: flex;
-}
+  .mission-column {
+    width: 90%;
+  }
 
-.newsletter{
-  margin: auto;
+  .reviews {
+    padding: 30px 0 30px 0;
+  }
 
-  display:flex;
-
-}
-.form-description{
-  max-width:50%;
-}
-
-}
-
-@media only screen and (min-width: 1200px){
-  /* Desktop */
-
-/* .content-wrapper{
-  margin: auto;
-  width: 80%;
-} */
-
-header .content-wrapper{
-  margin: auto;
-width: 80%;
-}
-.hero-area h1{
-  margin: auto;
-  width:80%;
-}
-  .newsletter{
+  .review-table {
     display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: auto;
-
   }
 
-
-  .form-description{
-    width:26%;
+  .newsletter {
+    margin: auto;
+    display: flex;
   }
 
-/* .features{
-  margin: auto;
-  width:80%
-} */
-  .features article{
-    width:30%;
+  .newsletter-content {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: space-between;
+    padding: 30px 0 30px 0;
   }
 
-.features-items{
-  margin: auto;
-width: 80%;
-}
-/* .reviews{
-  margin: auto;
-  width:80%
-} */
+  .footer-content {
+    padding: 30px;
+  }
 
-.review-table{
-  display:flex;
+  .form-description {
+    max-width: 50%;
+  }
 }
 
+@media only screen and (min-width: 1200px) {
 
-.footer{
-  margin: auto;
-  width:65%;
+  /* Desktop */
+  header .content-wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+  .hero-area h1 {
+    margin: auto;
+    width: 80%;
+  }
+
+  .newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+  }
+
+  .form-description {
+    width: 26%;
+  }
+
+  .features {
+    padding: 30px 0 30px 0;
+  }
+
+  .features article {
+    width: 30%;
+  }
+
+  .features-items {
+    margin: auto;
+    width: 80%;
+  }
+
+  .reviews {
+    padding: 30px 0 30px 0;
+  }
+
+  .review-table {
+    display: flex;
+  }
+
+  .faq {
+    padding: 50px 0 50px 0;
+  }
+
+  .faq-column {
+    padding-right: 40px;
+  }
+
+  .footer {
+    margin: auto;
+    width: 65%;
+  }
+
+  .footer-content {
+    padding: 30px;
+  }
+
+  .contact-section .content-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .mission .content-wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .mission h2 {
+    font-weight: 500;
+  }
+
+  .contact-section h3, h4 {
+    font-weight: 500;
+  }
+
+  .contact-columns {
+    line-height: 1.5;
+  }
 }
-
-}
-
-
-
-
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -591,73 +611,73 @@ width: 80%;
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  a[href]:after {
+    content: " ("attr(href) ")";
+  }
 
-    /*
+  abbr[title]:after {
+    content: " ("attr(title) ")";
+  }
+
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
+  thead {
+    display: table-header-group;
+  }
 
-    thead {
-        display: table-header-group;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
