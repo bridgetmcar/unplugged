@@ -112,23 +112,33 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3em;
   margin: 0;
+      font-weight: normal;
+
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 2em;
+  margin: 0;
+    font-weight: normal;
 }
 
 h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1em;
+  font-size: 1.25em;
+  margin:0;
+  font-weight: normal;
 }
 
 p {}
 
-img {}
+  img {
+  	width: 100%;
+  }
 
-figure {}
+  figure {
+          margin: 0;
+  }
 
 address {
   font-style: normal;
@@ -141,13 +151,9 @@ header, footer {
   justify-content: center;
   align-items: center;
   background-color: #202322;
-  color: #aeb0b7
+  color: #aeb0b7;
 }
 
-.hero-area h2 {
-  margin: auto;
-  width: 85%;
-}
 
 header .content-wrapper {
   width: 100%;
@@ -176,9 +182,33 @@ header nav {
 .hero-area {
   margin: 0;
   width: 100%;
+  background: url('../img/hero.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+  min-height: 500px;
+}
+
+.hero-area h3 {
+  margin: auto;
+  width: 85%;
+  color: #e2e3ed;
+  font-size: 2.75em;
+
+  padding-top: 40px;
 }
 
 /* <!-- -------------------- Mobile Styles - Homepage------------------ --> */
+
+header figure{
+  width:60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 nav ul {
   flex-flow: row wrap;
   display: flex;
@@ -195,14 +225,6 @@ li {
 header h1 {
   margin: auto;
   width: 85%;
-}
-
-.hero-area {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
-  width: 100%;
-  margin: 0;
 }
 
 .content-wrapper {
@@ -232,10 +254,16 @@ aside {
   padding: 20px 0 20px 0;
 }
 
-/* .form-description h3, aside{
-  padding-left: 15px;
+.features{
+  background: url(../img/camping.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+    color: #e2e3ed;
+        padding: 30px 0;
+}
 
-} */
 .features-header {
   margin: auto;
   width: 85%;
@@ -250,14 +278,10 @@ aside {
 }
 
 .features article {
-  /* flex-flow: row wrap; */
   width: 55%;
 }
 
-/* .features h2{
-  width:85%;
-  padding-left: 15px;
-} */
+
 .features p {
   padding: 0;
 }
@@ -269,19 +293,25 @@ aside {
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  color: #5b6d6a;
+  color: #e2e3ed;
   background-color: #2a423a;
+  padding: 30px 0;
 }
 
-h3 .reviews {
-  width: 50%;
-  display: flex;
-  align-items: baseline;
+ .reviews h3{
+
+      padding-bottom: 20px;
 }
 
 .map {
   margin: 0;
   width: 100%;
+  background: url(../img/map.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #333;
+  height: 500px;
 }
 
 .mission {
@@ -307,6 +337,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
 }
 
 footer .content-wrapper {
@@ -451,7 +482,13 @@ input[type=button] {
   .content-wrapper {
     /* width:83%; */
   }
-
+  header figure{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   header .content-wrapper {
     margin: auto;
     width: 85%;
@@ -512,6 +549,10 @@ input[type=button] {
     display: flex;
   }
 
+  .review-content{
+    padding-left: 30px;
+  }
+
   .newsletter {
     margin: auto;
     display: flex;
@@ -563,7 +604,11 @@ input[type=button] {
   }
 
   .features {
-    padding: 30px 0 30px 0;
+    padding: 70px 0 70px 0;
+  }
+
+  .features-header{
+    padding-bottom: 40px;
   }
 
   .features article {
@@ -575,8 +620,17 @@ input[type=button] {
     width: 80%;
   }
 
+  .features-item-description{
+    margin: auto;
+    width:80%;
+  }
+
   .reviews {
     padding: 30px 0 30px 0;
+  }
+
+  .review-content{
+    padding-left: 30px;
   }
 
   .review-table {
@@ -591,7 +645,9 @@ input[type=button] {
   .faq-column {
     padding-right: 60px;
   }
-
+  .faq-column h4 {
+    padding-top: 40px;
+  }
   .footer {
     margin: auto;
     width: 65%;
