@@ -27,7 +27,7 @@
     <div class="content-wrapper">
 
       <figure>
-      <a href=""><img src="../img/unpluggedlogo.png" alt="unplugged logo" /></a>
+        <a href=""><img src="../img/unpluggedlogo.png" alt="unplugged logo" /></a>
       </figure>
 
       <div class="header-divider"></div>
@@ -46,46 +46,52 @@
     <section class="mission">
       <div class="content-wrapper">
         <div class="mission-content">
-        <h2>Our Mission - we want to make you the team you always wanted to be.</h2>
-        <div class="mission-columns">
-        <div class="mission-column">
-          <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog </article>
-        </div>
-        <div class="mission-column">
-        <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog </article>
-        </div>
-        </div>
+          <h2>Our Mission - we want to make you the team you always wanted to be.</h2>
+          <div class="mission-columns">
+            <div class="mission-column">
+              <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed dialog </article>
+            </div>
+            <div class="mission-column">
+              <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dialog Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed dialog </article>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="map">
-      <!-- <figure>
-        <img src="#" alt="map" />
-      </figure> -->
+      <div class="map-container">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3311.548080151037!2d151.12104151563383!3d-33.90129098064731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ba8e9b608e9d%3A0x81cd6e4ce25c8c4d!2s16+Fourth+St%2C+Ashbury+NSW+2193!5e0!3m2!1sen!2sau!4v1547971766212"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+
     </section>
 
-  <div class="contact-section">
-    <div class="content-wrapper">
-      <div class="contact-header">
-        <h3>Contact us, because you all need this.</h3>
+    <div class="contact-section">
+      <div class="content-wrapper">
+        <div class="contact-header">
+          <h3>Contact us, because you all need this.</h3>
+        </div>
+        <div class="contact-columns">
+          <div class="contact-column-1">
+            <h4>General Information</h4>
+            <address>333 Main St, Lake Geneva, WI 53147 <br>
+              555-555-5555 <br>
+              hello@unplugged</address>
+          </div>
+          <div class="contact-column-2">
+            <h4>Chat with Facilitator</h4>
+            <p>555-555-5556 <br>
+              facilitator@unplugged.com</p>
+          </div>
+        </div>
       </div>
-      <div class="contact-columns">
-      <div class="contact-column-1">
-        <h4>General Information</h4>
-        <address>333 Main St, Lake Geneva, WI 53147 <br>
-          555-555-5555 <br>
-          hello@unplugged</address>
-      </div>
-      <div class="contact-column-2">
-        <h4>Chat with Facilitator</h4>
-        <p>555-555-5556 <br>
-          facilitator@unplugged.com</p>
-      </div>
-      </div>
-    </div>
 
-  </div>
+    </div>
 
   </main>
 
@@ -120,14 +126,21 @@
 
   <script src="../js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script>
+    window.jQuery || document.write('<script src="../js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script>
   <script src="../js/plugins.js"></script>
   <script src="../js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 </body>
